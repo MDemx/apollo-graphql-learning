@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.App form {
+  border: 1px solid #b6b6b6;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.App form input, .App form button {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.App form input {
+  width: 70%;
+  margin-top: 10px;
+  height: 20px;
+  background-color: #f1e7d4;
+  padding: 5px 10px;
+}
+
+.App form .buttons {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App form .buttons button {
+  width: 100px;
+  height: 50px;
+  border-radius: 3px;
+  font-size: 1em;
+  background-color: #f1ddba;
+}
+
+.App form .buttons button:hover {
+  background-color: #efe3cd;
+}
+
+.App .users {
+  margin-top: 20px;
+}
+
+.App .users .user {
+  margin: 0 auto;
+  border: 1px solid #b6b6b6;
+  width: 490px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
